@@ -1,0 +1,104 @@
+{
+  "uid" : "6604705106b9c8b4",
+  "name" : "Given The user is AutomationPractise Website",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.Given The user is AutomationPractise Website",
+  "historyId" : "ddd4520c6c606e44bd3ab661d1d379d",
+  "time" : {
+    "start" : 1631411145021,
+    "stop" : 1631411145049,
+    "duration" : 28
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1631411145027,
+        "stop" : 0,
+        "duration" : -1631411145027
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1631411145033,
+          "stop" : 0,
+          "duration" : -1631411145033
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7826b8b4693aaf93",
+          "name" : "Request",
+          "source" : "7826b8b4693aaf93.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given The user is AutomationPractise Website"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6604705106b9c8b4.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

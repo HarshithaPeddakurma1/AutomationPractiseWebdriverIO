@@ -1,0 +1,276 @@
+{
+  "uid" : "49974736660fb3e2",
+  "name" : "When Click on Proceed to CheckOut",
+  "fullName" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page.When Click on Proceed to CheckOut",
+  "historyId" : "fef0d701d276ade9e815c1f4020e2ecf",
+  "time" : {
+    "start" : 1631412477873,
+    "stop" : 1631412495823,
+    "duration" : 17950
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412477874,
+        "stop" : 1631412477901,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "817a35440e0e83e",
+        "name" : "Request",
+        "source" : "817a35440e0e83e.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "786e8672a5a14320",
+        "name" : "Response",
+        "source" : "786e8672a5a14320.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0fe47685-d7bc-41be-8a43-906e5cae2384/click",
+      "time" : {
+        "start" : 1631412477904,
+        "stop" : 1631412480852,
+        "duration" : 2948
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412480852,
+        "stop" : 1631412480897,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4573e105b4182155",
+        "name" : "Request",
+        "source" : "4573e105b4182155.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "e018c3bb649bcad",
+        "name" : "Response",
+        "source" : "e018c3bb649bcad.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b5d83258-3104-4e23-9650-94611c461ae5/click",
+      "time" : {
+        "start" : 1631412480902,
+        "stop" : 1631412483060,
+        "duration" : 2158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412483068,
+        "stop" : 1631412483094,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b35f9a948ca7ed8",
+        "name" : "Request",
+        "source" : "1b35f9a948ca7ed8.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "d12d3f9f99af1f61",
+        "name" : "Response",
+        "source" : "d12d3f9f99af1f61.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/7ed81d2e-ca09-4298-998b-593673f652aa/click",
+      "time" : {
+        "start" : 1631412483103,
+        "stop" : 1631412485958,
+        "duration" : 2855
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412485959,
+        "stop" : 1631412486004,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b8ea8e63b7cda3a",
+        "name" : "Request",
+        "source" : "3b8ea8e63b7cda3a.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "76cae1e3c7d006e0",
+        "name" : "Response",
+        "source" : "76cae1e3c7d006e0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/998ddae9-b484-4d36-af8a-d4d1aa4cc742/click",
+      "time" : {
+        "start" : 1631412486008,
+        "stop" : 1631412486109,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412486109,
+        "stop" : 1631412486143,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5dbc70fe073aadf",
+        "name" : "Request",
+        "source" : "b5dbc70fe073aadf.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "23420cfd444915c5",
+        "name" : "Response",
+        "source" : "23420cfd444915c5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/a251a82b-ae0c-4fbb-bca2-469c828ac8e6/click",
+      "time" : {
+        "start" : 1631412486153,
+        "stop" : 1631412492807,
+        "duration" : 6654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Click on Proceed to CheckOut"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49974736660fb3e2.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

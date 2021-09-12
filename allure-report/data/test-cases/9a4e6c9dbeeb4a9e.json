@@ -1,0 +1,56 @@
+{
+  "uid" : "9a4e6c9dbeeb4a9e",
+  "name" : "",
+  "fullName" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page.",
+  "historyId" : "85dc79eed3992283de840f854db794db",
+  "time" : {
+    "start" : 1631411191167,
+    "stop" : 1631411191167,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a4e6c9dbeeb4a9e.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

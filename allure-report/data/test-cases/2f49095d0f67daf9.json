@@ -1,0 +1,108 @@
+{
+  "uid" : "2f49095d0f67daf9",
+  "name" : "When Click on Add to Cart",
+  "fullName" : "Automation Practise dresses page: User should be successfully add the item to the cart.When Click on Add to Cart",
+  "historyId" : "90f9f11e1ae924ad1ac1bba31649b2c4",
+  "time" : {
+    "start" : 1631411675212,
+    "stop" : 1631411723923,
+    "duration" : 48711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "chrome not reachable",
+  "statusTrace" : "chrome not reachable\n                  (Session info: chrome=93.0.4577.63)\n                Backtrace:\n                \tOrdinal0 [0x006C2A33+2501171]\n                \tOrdinal0 [0x0065D1C1+2085313]\n                \tOrdinal0 [0x00561E70+1056368]\n                \tOrdinal0 [0x00556FD4+1011668]\n                \tOrdinal0 [0x005577C6+1013702]\n                \tOrdinal0 [0x00558EB5+1019573]\n                \tOrdinal0 [0x00553086+995462]\n                \tOrdinal0 [0x005631C0+1061312]\n                \tOrdinal0 [0x005B4092+1392786]\n                \tOrdinal0 [0x005A551B+1332507]\n                \tOrdinal0 [0x00581D74+1187188]\n                \tOrdinal0 [0x00582BD9+1190873]\n                \tGetHandleVerifier [0x0083EFE6+1504438]\n                \tGetHandleVerifier [0x008EDDA5+2220661]\n                \tGetHandleVerifier [0x00745589+481881]\n                \tGetHandleVerifier [0x00744639+477961]\n                \tOrdinal0 [0x006628BD+2107581]\n                \tOrdinal0 [0x00666728+2123560]\n                \tOrdinal0 [0x00666862+2123874]\n                \tOrdinal0 [0x0066FA81+2161281]\n                \tBaseThreadInitThunk [0x760BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "chrome not reachable",
+    "statusTrace" : "chrome not reachable\n                  (Session info: chrome=93.0.4577.63)\n                Backtrace:\n                \tOrdinal0 [0x006C2A33+2501171]\n                \tOrdinal0 [0x0065D1C1+2085313]\n                \tOrdinal0 [0x00561E70+1056368]\n                \tOrdinal0 [0x00556FD4+1011668]\n                \tOrdinal0 [0x005577C6+1013702]\n                \tOrdinal0 [0x00558EB5+1019573]\n                \tOrdinal0 [0x00553086+995462]\n                \tOrdinal0 [0x005631C0+1061312]\n                \tOrdinal0 [0x005B4092+1392786]\n                \tOrdinal0 [0x005A551B+1332507]\n                \tOrdinal0 [0x00581D74+1187188]\n                \tOrdinal0 [0x00582BD9+1190873]\n                \tGetHandleVerifier [0x0083EFE6+1504438]\n                \tGetHandleVerifier [0x008EDDA5+2220661]\n                \tGetHandleVerifier [0x00745589+481881]\n                \tGetHandleVerifier [0x00744639+477961]\n                \tOrdinal0 [0x006628BD+2107581]\n                \tOrdinal0 [0x00666728+2123560]\n                \tOrdinal0 [0x00666862+2123874]\n                \tOrdinal0 [0x0066FA81+2161281]\n                \tBaseThreadInitThunk [0x760BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411675214,
+        "stop" : 1631411723923,
+        "duration" : 48709
+      },
+      "status" : "broken",
+      "statusMessage" : "chrome not reachable\n                  (Session info: chrome=93.0.4577.63)\n                Backtrace:\n                \tOrdinal0 [0x006C2A33+2501171]\n                \tOrdinal0 [0x0065D1C1+2085313]\n                \tOrdinal0 [0x00561E70+1056368]\n                \tOrdinal0 [0x00556FD4+1011668]\n                \tOrdinal0 [0x005577C6+1013702]\n                \tOrdinal0 [0x00558EB5+1019573]\n                \tOrdinal0 [0x00553086+995462]\n                \tOrdinal0 [0x005631C0+1061312]\n                \tOrdinal0 [0x005B4092+1392786]\n                \tOrdinal0 [0x005A551B+1332507]\n                \tOrdinal0 [0x00581D74+1187188]\n                \tOrdinal0 [0x00582BD9+1190873]\n                \tGetHandleVerifier [0x0083EFE6+1504438]\n                \tGetHandleVerifier [0x008EDDA5+2220661]\n                \tGetHandleVerifier [0x00745589+481881]\n                \tGetHandleVerifier [0x00744639+477961]\n                \tOrdinal0 [0x006628BD+2107581]\n                \tOrdinal0 [0x00666728+2123560]\n                \tOrdinal0 [0x00666862+2123874]\n                \tOrdinal0 [0x0066FA81+2161281]\n                \tBaseThreadInitThunk [0x760BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1631411723917,
+          "stop" : 1631411723923,
+          "duration" : 6
+        },
+        "status" : "broken",
+        "statusMessage" : "chrome not reachable\n                  (Session info: chrome=93.0.4577.63)\n                Backtrace:\n                \tOrdinal0 [0x006C2A33+2501171]\n                \tOrdinal0 [0x0065D1C1+2085313]\n                \tOrdinal0 [0x00561E70+1056368]\n                \tOrdinal0 [0x00556FD4+1011668]\n                \tOrdinal0 [0x005577C6+1013702]\n                \tOrdinal0 [0x00558EB5+1019573]\n                \tOrdinal0 [0x00553086+995462]\n                \tOrdinal0 [0x005631C0+1061312]\n                \tOrdinal0 [0x005B4092+1392786]\n                \tOrdinal0 [0x005A551B+1332507]\n                \tOrdinal0 [0x00581D74+1187188]\n                \tOrdinal0 [0x00582BD9+1190873]\n                \tGetHandleVerifier [0x0083EFE6+1504438]\n                \tGetHandleVerifier [0x008EDDA5+2220661]\n                \tGetHandleVerifier [0x00745589+481881]\n                \tGetHandleVerifier [0x00744639+477961]\n                \tOrdinal0 [0x006628BD+2107581]\n                \tOrdinal0 [0x00666728+2123560]\n                \tOrdinal0 [0x00666862+2123874]\n                \tOrdinal0 [0x0066FA81+2161281]\n                \tBaseThreadInitThunk [0x760BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n                ",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f55039873c7ee139",
+        "name" : "Request",
+        "source" : "f55039873c7ee139.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Click on Add to Cart"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f49095d0f67daf9.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

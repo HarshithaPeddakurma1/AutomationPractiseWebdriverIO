@@ -1,0 +1,204 @@
+{
+  "uid" : "3d12abde756f8982",
+  "name" : "Given Signout and enter the Valid Email address and password",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.Given Signout and enter the Valid Email address and password",
+  "historyId" : "cf81e4856587f6c4af276a3990643cdf",
+  "time" : {
+    "start" : 1631411651445,
+    "stop" : 1631411659479,
+    "duration" : 8034
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411651446,
+        "stop" : 1631411651476,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a80e67782ece4d8",
+        "name" : "Request",
+        "source" : "1a80e67782ece4d8.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "b7e0deda847f0e30",
+        "name" : "Response",
+        "source" : "b7e0deda847f0e30.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/36d05242-c91b-4d36-bcd7-117a1f0c0431/click",
+      "time" : {
+        "start" : 1631411651479,
+        "stop" : 1631411653960,
+        "duration" : 2481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411658976,
+        "stop" : 1631411659042,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c81aca47d86fc75d",
+        "name" : "Request",
+        "source" : "c81aca47d86fc75d.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "f17da6ab854dbcdb",
+        "name" : "Response",
+        "source" : "f17da6ab854dbcdb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/a94cfcf3-e023-4e61-a73d-cf2983b05a2b/value",
+      "time" : {
+        "start" : 1631411659048,
+        "stop" : 1631411659292,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b18c2cde08ea29d",
+        "name" : "Request",
+        "source" : "9b18c2cde08ea29d.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411659292,
+        "stop" : 1631411659316,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ab3debce4dae3d0",
+        "name" : "Request",
+        "source" : "8ab3debce4dae3d0.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "9a584d05ab0038b6",
+        "name" : "Response",
+        "source" : "9a584d05ab0038b6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/05a863cd-0e87-48b4-9e6b-14cbce9837f8/value",
+      "time" : {
+        "start" : 1631411659318,
+        "stop" : 1631411659476,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac4a911bc12ca41a",
+        "name" : "Request",
+        "source" : "ac4a911bc12ca41a.json",
+        "type" : "application/json",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Signout and enter the Valid Email address and password"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d12abde756f8982.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

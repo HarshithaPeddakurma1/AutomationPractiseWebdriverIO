@@ -1,0 +1,144 @@
+{
+  "uid" : "34e4b8b2d7ac5456",
+  "name" : "Given The user is AutomationPractise Website",
+  "fullName" : "Automation Practise dresses page: Register on the Website.Given The user is AutomationPractise Website",
+  "historyId" : "46f79defd900a0ea2c7de550128cf20b",
+  "time" : {
+    "start" : 1631412514719,
+    "stop" : 1631412514740,
+    "duration" : 21
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1631412514724,
+        "stop" : 0,
+        "duration" : -1631412514724
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1631412514726,
+          "stop" : 0,
+          "duration" : -1631412514726
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d54c57680d05ea1b",
+          "name" : "Request",
+          "source" : "d54c57680d05ea1b.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given The user is AutomationPractise Website"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9c91cb6ca9ba089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412404909,
+        "stop" : 1631412404938,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "8e56412352f6e3ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412134692,
+        "stop" : 1631412134736,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "76a20edd4c11b96c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412044761,
+        "stop" : 1631412044816,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "5921c2d57851877c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411775484,
+        "stop" : 1631411775515,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "e2b94308d59ca0e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411624928,
+        "stop" : 1631411624973,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34e4b8b2d7ac5456.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

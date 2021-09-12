@@ -1,0 +1,114 @@
+{
+  "uid" : "2216f055f302b372",
+  "name" : "Then Check Name and Surname are correct after register",
+  "fullName" : "Automation Practise dresses page: Register on the Website.Then Check Name and Surname are correct after register",
+  "historyId" : "c4a036dc2660ca4b501e32b0fd946a43",
+  "time" : {
+    "start" : 1631411651199,
+    "stop" : 1631411651361,
+    "duration" : 162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411651209,
+        "stop" : 1631411651278,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8ac1ff307fc1a8a",
+        "name" : "Request",
+        "source" : "d8ac1ff307fc1a8a.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "5c113421d64453bf",
+        "name" : "Response",
+        "source" : "5c113421d64453bf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/4dfbc45e-7864-4bad-9dd5-4ec1e6b8d20a/text",
+      "time" : {
+        "start" : 1631411651285,
+        "stop" : 1631411651346,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "725a02bb7a86b46c",
+        "name" : "Response",
+        "source" : "725a02bb7a86b46c.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Check Name and Surname are correct after register"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2216f055f302b372.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

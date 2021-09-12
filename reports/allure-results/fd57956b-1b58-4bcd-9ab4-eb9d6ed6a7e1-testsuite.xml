@@ -1,0 +1,176 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631413958600' stop='1631413959343'>
+    <name>Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page</name>
+    <title>Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page</title>
+    <test-cases>
+        <test-case start='1631413958600' status='passed' stop='1631413958600'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631413958601' status='passed' stop='1631413959271'>
+            <name>Given Get the productname colour and quantity</name>
+            <title>Given Get the productname colour and quantity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps>
+                <step start='1631413958601' status='passed' stop='1631413959183'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='768ec7ee-bd82-42eb-a4f4-bdb4046e4bad-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='e47cac9d-b48e-4994-9591-7f62e93efe19-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413959185' status='passed' stop='1631413959208'>
+                    <name>GET /session/:sessionId/element/98b21ca6-94d6-4e6d-bc01-4cd9a3321322/text</name>
+                    <title>GET /session/:sessionId/element/98b21ca6-94d6-4e6d-bc01-4cd9a3321322/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631413959208' status='passed' stop='1631413959220'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='00cb5863-a191-483a-8ed7-a5d0b207fbb0-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Screenshot' source='f0081351-9673-4bfe-8721-5520fa121658-attachment.png' type='image/png' size='452843'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413959227' status='passed' stop='1631413959240'>
+                    <name>GET /session/:sessionId/element/ae897a37-27f6-4648-8b90-1066b6c8d980/text</name>
+                    <title>GET /session/:sessionId/element/ae897a37-27f6-4648-8b90-1066b6c8d980/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631413959240' status='passed' stop='1631413959254'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ed236e1a-37cb-49b5-945b-dcfbabd05a43-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='67b13a83-5b4b-4857-9104-f6ed4327cf47-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413959258' status='passed' stop='1631413959270'>
+                    <name>GET /session/:sessionId/element/4f769a32-cb65-4839-8fce-9f4aa5256948/text</name>
+                    <title>GET /session/:sessionId/element/4f769a32-cb65-4839-8fce-9f4aa5256948/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='ffa5dbe3-22de-41e6-910f-897500b67249-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1631413959271' status='broken' stop='1631413959342'>
+            <name>When Click on Proceed to CheckOut</name>
+            <title>When Click on Proceed to CheckOut</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps>
+                <step start='1631413959272' status='passed' stop='1631413959285'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9e916c32-5791-4966-a456-e21fb92cb0c5-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='f3502a1b-8a12-4c86-8873-672bd693674c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413959287' status='broken' stop='1631413959342'>
+                    <name>POST /session/:sessionId/element/0a928540-db64-4cbd-99e5-b1d32df647e7/click</name>
+                    <title>POST /session/:sessionId/element/0a928540-db64-4cbd-99e5-b1d32df647e7/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631413959340' status='broken' stop='1631413959342'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable</message>
+                <stack-trace>element not interactable
+                  (Session info: MicrosoftEdge=93.0.961.44)
+                Backtrace:
+                	Ordinal0 [0x00007FF6EFAE92C2+4821698]
+                	Ordinal0 [0x00007FF6EF76D3E3+1168355]
+                	Ordinal0 [0x00007FF6EF7A923C+1413692]
+                	Ordinal0 [0x00007FF6EF79A6D8+1353432]
+                	Ordinal0 [0x00007FF6EF7C2CF6+1518838]
+                	Ordinal0 [0x00007FF6EF79A42D+1352749]
+                	Ordinal0 [0x00007FF6EF7C2E4C+1519180]
+                	Ordinal0 [0x00007FF6EF7D5806+1595398]
+                	Ordinal0 [0x00007FF6EF7C2B6F+1518447]
+                	Ordinal0 [0x00007FF6EF798E8A+1347210]
+                	Ordinal0 [0x00007FF6EF799EEF+1351407]
+                	Ordinal0 [0x00007FF6EF84847D+2065533]
+                	Ordinal0 [0x00007FF6EF7FD31A+1757978]
+                	Ordinal0 [0x00007FF6EF9DD629+3724841]
+                	Ordinal0 [0x00007FF6EF7FEC09+1764361]
+                	Ordinal0 [0x00007FF6EFAEC4F8+4834552]
+                	Ordinal0 [0x00007FF6EFAEBF64+4833124]
+                	Ordinal0 [0x00007FF6EFAEBDB6+4832694]
+                	Ordinal0 [0x00007FF6EFA9908C+4493452]
+                	BaseThreadInitThunk [0x00007FFF8BC37034+20]
+                	RtlUserThreadStart [0x00007FFF8C822651+33]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1631413959342' status='pending' stop='1631413959342'>
+            <name>Then Validate whether same productname colour and quantity are displayed in the Summary page</name>
+            <title>Then Validate whether same productname colour and quantity are displayed in the Summary page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631413959343' status='passed' stop='1631413959343'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

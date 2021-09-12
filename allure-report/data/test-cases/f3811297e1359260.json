@@ -1,0 +1,162 @@
+{
+  "uid" : "f3811297e1359260",
+  "name" : "",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.",
+  "historyId" : "9de2481f0185b3ed4bb315c1650feba0",
+  "time" : {
+    "start" : 1631412556611,
+    "stop" : 1631412556611,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bbfa510490fe6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412543895,
+        "stop" : 1631412543899,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "cfd9573142d73848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412462955,
+        "stop" : 1631412462955,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d4e49c88503cb7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412450201,
+        "stop" : 1631412450201,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "892e168a7b7053b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412305293,
+        "stop" : 1631412305294,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "686487e9fdf0daf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412288136,
+        "stop" : 1631412288137,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "879ed56ec4901da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412086934,
+        "stop" : 1631412086936,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3fc480aa9d101dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412072465,
+        "stop" : 1631412072467,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ceed08773299eda7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411818221,
+        "stop" : 1631411818223,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "40985f9f6ec86bc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411805470,
+        "stop" : 1631411805473,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "d07adcb740e56d4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411664752,
+        "stop" : 1631411664755,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "e86cbdc5414029fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411651445,
+        "stop" : 1631411651445,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67bca74d4fed9ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411162472,
+        "stop" : 1631411162473,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "537dd39cfec22f40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411145014,
+        "stop" : 1631411145020,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3811297e1359260.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

@@ -1,0 +1,130 @@
+{
+  "uid" : "e775a30116a40bc",
+  "name" : "",
+  "fullName" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page.",
+  "historyId" : "85dc79eed3992283de840f854db794db",
+  "time" : {
+    "start" : 1631412581356,
+    "stop" : 1631412581356,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "594a740b0e43e353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412571277,
+        "stop" : 1631412571277,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a9a4c7fe7b439e76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412495991,
+        "stop" : 1631412495991,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aae31d26792d67db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412477652,
+        "stop" : 1631412477653,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "949cae5f09916d8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412336397,
+        "stop" : 1631412336397,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "19003f3c2cf5957a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412321211,
+        "stop" : 1631412321212,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cafe102c8fac3aa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411849291,
+        "stop" : 1631411849292,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "36276c176888d876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411833949,
+        "stop" : 1631411833951,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9a4e6c9dbeeb4a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411191167,
+        "stop" : 1631411191167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86a660892cbbcebe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411177951,
+        "stop" : 1631411177952,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e775a30116a40bc.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

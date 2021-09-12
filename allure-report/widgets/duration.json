@@ -1,0 +1,171 @@
+[ {
+  "uid" : "ef2b96fc8450a15d",
+  "name" : "Given Get the productname colour and quantity",
+  "time" : {
+    "start" : 1631412571277,
+    "stop" : 1631412571430,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7ea25b0739e9c8b",
+  "name" : "",
+  "time" : {
+    "start" : 1631412543856,
+    "stop" : 1631412543856,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e056cd861969a96b",
+  "name" : "Then Check Name and Surname are correct after register",
+  "time" : {
+    "start" : 1631412543801,
+    "stop" : 1631412543856,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74c465cbd5dff260",
+  "name" : "When The user creates a account",
+  "time" : {
+    "start" : 1631412514740,
+    "stop" : 1631412543801,
+    "duration" : 29061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3811297e1359260",
+  "name" : "",
+  "time" : {
+    "start" : 1631412556611,
+    "stop" : 1631412556611,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4e72f47e642795f",
+  "name" : "Given Signout and enter the Valid Email address and password",
+  "time" : {
+    "start" : 1631412543900,
+    "stop" : 1631412551657,
+    "duration" : 7757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96db068e55f3a41b",
+  "name" : "Then Validate that product is successfully added to the cart",
+  "time" : {
+    "start" : 1631412571202,
+    "stop" : 1631412571260,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6604705106b9c8b4",
+  "name" : "Given The user is AutomationPractise Website",
+  "time" : {
+    "start" : 1631411145021,
+    "stop" : 1631411145049,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "693c7c45e3bbbed0",
+  "name" : "Then User should be able to login into the automation practise website",
+  "time" : {
+    "start" : 1631412556559,
+    "stop" : 1631412556611,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd54df011af15733",
+  "name" : "When Click on Add to Cart",
+  "time" : {
+    "start" : 1631412564936,
+    "stop" : 1631412571202,
+    "duration" : 6266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e77acaa4313550c",
+  "name" : "When Click on the Submit Button",
+  "time" : {
+    "start" : 1631412551657,
+    "stop" : 1631412556559,
+    "duration" : 4902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e775a30116a40bc",
+  "name" : "",
+  "time" : {
+    "start" : 1631412581356,
+    "stop" : 1631412581356,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12c13324ba93cc70",
+  "name" : "Then Validate whether same productname colour and quantity are displayed in the Summary page",
+  "time" : {
+    "start" : 1631412581179,
+    "stop" : 1631412581356,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3c34a4e45f41d2e",
+  "name" : "When Click on Proceed to CheckOut",
+  "time" : {
+    "start" : 1631412571430,
+    "stop" : 1631412581179,
+    "duration" : 9749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a45eedf1dcb78d2c",
+  "name" : "",
+  "time" : {
+    "start" : 1631412571261,
+    "stop" : 1631412571261,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9515379a769976c",
+  "name" : "Given Go to Dresses and click on the Summer dresses",
+  "time" : {
+    "start" : 1631412556627,
+    "stop" : 1631412564936,
+    "duration" : 8309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34e4b8b2d7ac5456",
+  "name" : "Given The user is AutomationPractise Website",
+  "time" : {
+    "start" : 1631412514719,
+    "stop" : 1631412514740,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

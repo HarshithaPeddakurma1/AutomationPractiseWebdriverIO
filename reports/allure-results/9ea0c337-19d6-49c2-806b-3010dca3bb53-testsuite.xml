@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631413958445' stop='1631413958592'>
+    <name>Automation Practise dresses page: User should be successfully add the item to the cart</name>
+    <title>Automation Practise dresses page: User should be successfully add the item to the cart</title>
+    <test-cases>
+        <test-case start='1631413958445' status='passed' stop='1631413958446'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631413958446' status='broken' stop='1631413958590'>
+            <name>Given Go to Dresses and click on the Summer dresses</name>
+            <title>Given Go to Dresses and click on the Summer dresses</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps>
+                <step start='1631413958446' status='passed' stop='1631413958460'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ffc656cf-41a6-4d77-a1eb-ee436762ce2a-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='3991a41c-a87a-4bcb-90d8-3784f02b07c9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413958462' status='passed' stop='1631413958473'>
+                    <name>GET /session/:sessionId/element/15eaea8a-ffe9-45a6-aa6c-1051cc8e5289/rect</name>
+                    <title>GET /session/:sessionId/element/15eaea8a-ffe9-45a6-aa6c-1051cc8e5289/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='136e955f-b74d-4303-922b-a85cd18df72c-attachment.json' type='application/json' size='87'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413958474' status='passed' stop='1631413958482'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='458881d3-e194-47d9-954f-3fd20040a338-attachment.json' type='application/json' size='158'/>
+                        <attachment title='Response' source='4c3a31a2-9203-40d4-b3be-085b9e158b2f-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413958482' status='passed' stop='1631413958504'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='89b50ebc-5ec0-4a1b-8132-e8e87a467bfc-attachment.json' type='application/json' size='288'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413958504' status='passed' stop='1631413958510'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631413958510' status='passed' stop='1631413958528'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='841c59e7-2f4e-4573-9f69-9ceb8a773fde-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='76d74012-3473-4015-9f76-d0ceca64cdde-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631413958530' status='broken' stop='1631413958590'>
+                    <name>POST /session/:sessionId/element/13aaa1d9-7065-4eef-8e0a-33ff1223a6bb/click</name>
+                    <title>POST /session/:sessionId/element/13aaa1d9-7065-4eef-8e0a-33ff1223a6bb/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631413958589' status='broken' stop='1631413958590'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable</message>
+                <stack-trace>element not interactable
+                  (Session info: MicrosoftEdge=93.0.961.44)
+                Backtrace:
+                	Ordinal0 [0x00007FF6EFAE92C2+4821698]
+                	Ordinal0 [0x00007FF6EF76D3E3+1168355]
+                	Ordinal0 [0x00007FF6EF7A923C+1413692]
+                	Ordinal0 [0x00007FF6EF79A6D8+1353432]
+                	Ordinal0 [0x00007FF6EF7C2CF6+1518838]
+                	Ordinal0 [0x00007FF6EF79A42D+1352749]
+                	Ordinal0 [0x00007FF6EF7C2E4C+1519180]
+                	Ordinal0 [0x00007FF6EF7D5806+1595398]
+                	Ordinal0 [0x00007FF6EF7C2B6F+1518447]
+                	Ordinal0 [0x00007FF6EF798E8A+1347210]
+                	Ordinal0 [0x00007FF6EF799EEF+1351407]
+                	Ordinal0 [0x00007FF6EF84847D+2065533]
+                	Ordinal0 [0x00007FF6EF7FD31A+1757978]
+                	Ordinal0 [0x00007FF6EF9DD629+3724841]
+                	Ordinal0 [0x00007FF6EF7FEC09+1764361]
+                	Ordinal0 [0x00007FF6EFAEC4F8+4834552]
+                	Ordinal0 [0x00007FF6EFAEBF64+4833124]
+                	Ordinal0 [0x00007FF6EFAEBDB6+4832694]
+                	Ordinal0 [0x00007FF6EFA9908C+4493452]
+                	BaseThreadInitThunk [0x00007FFF8BC37034+20]
+                	RtlUserThreadStart [0x00007FFF8C822651+33]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1631413958590' status='pending' stop='1631413958591'>
+            <name>When Click on Add to Cart</name>
+            <title>When Click on Add to Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631413958591' status='pending' stop='1631413958591'>
+            <name>Then Validate that product is successfully added to the cart</name>
+            <title>Then Validate that product is successfully added to the cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631413958591' status='passed' stop='1631413958592'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-93.0.961.44'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "4325cf2e4f56387fbeaf0c3be3d1769f",
+    "name" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "f34c6b70b8d54ea266a964f62d68e8d0",
+    "name" : "Automation Practise dresses page: Register on the Website",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "039a09f1d726876f9e5d29d0e47a1264",
+    "name" : "Automation Practise dresses page: User should be successfully add the item to the cart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "8a6529b6a932ae21a4608156b32eef54",
+    "name" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "a3de671875fd87cc",
+  "name" : "When Click on the Submit Button",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.When Click on the Submit Button",
+  "historyId" : "21884ea0dbe9e04f3bfaf5dc1876f81c",
+  "time" : {
+    "start" : 1631412081206,
+    "stop" : 1631412086813,
+    "duration" : 5607
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412081215,
+        "stop" : 1631412081252,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb09c953051810a7",
+        "name" : "Request",
+        "source" : "eb09c953051810a7.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "981912ddaa217a6f",
+        "name" : "Response",
+        "source" : "981912ddaa217a6f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/a1b3fb6a-ac5b-4568-8b4e-b5f1bc2a6371/click",
+      "time" : {
+        "start" : 1631412081262,
+        "stop" : 1631412083796,
+        "duration" : 2534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Click on the Submit Button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3de671875fd87cc.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

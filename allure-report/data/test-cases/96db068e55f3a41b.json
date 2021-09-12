@@ -1,0 +1,156 @@
+{
+  "uid" : "96db068e55f3a41b",
+  "name" : "Then Validate that product is successfully added to the cart",
+  "fullName" : "Automation Practise dresses page: User should be successfully add the item to the cart.Then Validate that product is successfully added to the cart",
+  "historyId" : "bdf6348bbc3031a7b73d8eb5cc1ce85e",
+  "time" : {
+    "start" : 1631412571202,
+    "stop" : 1631412571260,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412571203,
+        "stop" : 1631412571227,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f43cc9d27d06e44",
+        "name" : "Request",
+        "source" : "f43cc9d27d06e44.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "35814b5854d5e3a1",
+        "name" : "Response",
+        "source" : "35814b5854d5e3a1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/3a00588a-d6a7-4050-b3f5-e1a7726652c4/text",
+      "time" : {
+        "start" : 1631412571230,
+        "stop" : 1631412571259,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53eac89585fd9507",
+        "name" : "Response",
+        "source" : "53eac89585fd9507.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate that product is successfully added to the cart"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "631ab93c95131baa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412477536,
+        "stop" : 1631412477623,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "2e31953337542fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412321060,
+        "stop" : 1631412321180,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "8a597f5bf35f71fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411833746,
+        "stop" : 1631411833908,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "8c4abc5e41f0bdca",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1631411723923,
+        "stop" : 1631411723925,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4bb052c070bf4e2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411177848,
+        "stop" : 1631411177924,
+        "duration" : 76
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96db068e55f3a41b.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

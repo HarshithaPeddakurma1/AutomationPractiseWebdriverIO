@@ -1,0 +1,114 @@
+{
+  "uid" : "2e31953337542fa2",
+  "name" : "Then Validate that product is successfully added to the cart",
+  "fullName" : "Automation Practise dresses page: User should be successfully add the item to the cart.Then Validate that product is successfully added to the cart",
+  "historyId" : "bdf6348bbc3031a7b73d8eb5cc1ce85e",
+  "time" : {
+    "start" : 1631412321060,
+    "stop" : 1631412321180,
+    "duration" : 120
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412321062,
+        "stop" : 1631412321124,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "515959f0291abcc9",
+        "name" : "Request",
+        "source" : "515959f0291abcc9.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "f9c6ae7b85bca75d",
+        "name" : "Response",
+        "source" : "f9c6ae7b85bca75d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/65f23102-6c4f-4de9-9be4-e4ee509a61e8/text",
+      "time" : {
+        "start" : 1631412321129,
+        "stop" : 1631412321175,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a29882152c436f58",
+        "name" : "Response",
+        "source" : "a29882152c436f58.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate that product is successfully added to the cart"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e31953337542fa2.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

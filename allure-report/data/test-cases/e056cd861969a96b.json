@@ -1,0 +1,156 @@
+{
+  "uid" : "e056cd861969a96b",
+  "name" : "Then Check Name and Surname are correct after register",
+  "fullName" : "Automation Practise dresses page: Register on the Website.Then Check Name and Surname are correct after register",
+  "historyId" : "c4a036dc2660ca4b501e32b0fd946a43",
+  "time" : {
+    "start" : 1631412543801,
+    "stop" : 1631412543856,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412543802,
+        "stop" : 1631412543824,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16ba7fcf496f3a1f",
+        "name" : "Request",
+        "source" : "16ba7fcf496f3a1f.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "b528c49b32c47405",
+        "name" : "Response",
+        "source" : "b528c49b32c47405.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d03ff486-ad82-4f4f-a288-dac559487fbf/text",
+      "time" : {
+        "start" : 1631412543827,
+        "stop" : 1631412543846,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c74b3f9082428b4",
+        "name" : "Response",
+        "source" : "3c74b3f9082428b4.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Check Name and Surname are correct after register"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Register on the Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62f79051d4a8347d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412450069,
+        "stop" : 1631412450126,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "9fc5bdc6cc4e661b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1631412288095,
+        "stop" : 1631412288095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ecd811027ca3e53b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412072162,
+        "stop" : 1631412072343,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "71d1e6ee468f0d16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411805232,
+        "stop" : 1631411805383,
+        "duration" : 151
+      }
+    }, {
+      "uid" : "2216f055f302b372",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411651199,
+        "stop" : 1631411651361,
+        "duration" : 162
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e056cd861969a96b.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

@@ -1,0 +1,254 @@
+{
+  "uid" : "e4e72f47e642795f",
+  "name" : "Given Signout and enter the Valid Email address and password",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.Given Signout and enter the Valid Email address and password",
+  "historyId" : "cf81e4856587f6c4af276a3990643cdf",
+  "time" : {
+    "start" : 1631412543900,
+    "stop" : 1631412551657,
+    "duration" : 7757
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412543902,
+        "stop" : 1631412543927,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "505512840736d954",
+        "name" : "Request",
+        "source" : "505512840736d954.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "d9d94084b3f3137c",
+        "name" : "Response",
+        "source" : "d9d94084b3f3137c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/65b45b3f-d744-432d-b2d3-f4f61fd386cb/click",
+      "time" : {
+        "start" : 1631412543934,
+        "stop" : 1631412546322,
+        "duration" : 2388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412551329,
+        "stop" : 1631412551361,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba43ea4d2fafb9e6",
+        "name" : "Request",
+        "source" : "ba43ea4d2fafb9e6.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "584466575be3b1f7",
+        "name" : "Response",
+        "source" : "584466575be3b1f7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/39788323-497a-43ce-b7aa-d9a83a02dd4c/value",
+      "time" : {
+        "start" : 1631412551369,
+        "stop" : 1631412551511,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "373feac04cadfbb6",
+        "name" : "Request",
+        "source" : "373feac04cadfbb6.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412551511,
+        "stop" : 1631412551539,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2a7ff7b7c92487e",
+        "name" : "Request",
+        "source" : "a2a7ff7b7c92487e.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "1bdc30638a57c850",
+        "name" : "Response",
+        "source" : "1bdc30638a57c850.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/3a9e4599-1449-4ed9-be84-1cc2c2b2a56e/value",
+      "time" : {
+        "start" : 1631412551541,
+        "stop" : 1631412551655,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa0393884e17625f",
+        "name" : "Request",
+        "source" : "aa0393884e17625f.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Signout and enter the Valid Email address and password"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6bad8caf53f478b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412450202,
+        "stop" : 1631412458006,
+        "duration" : 7804
+      }
+    }, {
+      "uid" : "52f74b21073add10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412288137,
+        "stop" : 1631412300197,
+        "duration" : 12060
+      }
+    }, {
+      "uid" : "115442fcef8a2f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412072467,
+        "stop" : 1631412081205,
+        "duration" : 8738
+      }
+    }, {
+      "uid" : "73e473457a99a511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411805474,
+        "stop" : 1631411813562,
+        "duration" : 8088
+      }
+    }, {
+      "uid" : "3d12abde756f8982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411651445,
+        "stop" : 1631411659479,
+        "duration" : 8034
+      }
+    }, {
+      "uid" : "c076e7d8e91754af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411145049,
+        "stop" : 1631411157502,
+        "duration" : 12453
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4e72f47e642795f.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

@@ -1,0 +1,226 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Given The user is AutomationPractise Website",
+    "uid" : "6604705106b9c8b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631411145021,
+      "stop" : 1631411145049,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Given The user is AutomationPractise Website",
+    "uid" : "34e4b8b2d7ac5456",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412514719,
+      "stop" : 1631412514740,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "When The user creates a account",
+    "uid" : "74c465cbd5dff260",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412514740,
+      "stop" : 1631412543801,
+      "duration" : 29061
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Then Check Name and Surname are correct after register",
+    "uid" : "e056cd861969a96b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412543801,
+      "stop" : 1631412543856,
+      "duration" : 55
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "",
+    "uid" : "f7ea25b0739e9c8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412543856,
+      "stop" : 1631412543856,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Given Signout and enter the Valid Email address and password",
+    "uid" : "e4e72f47e642795f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412543900,
+      "stop" : 1631412551657,
+      "duration" : 7757
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "When Click on the Submit Button",
+    "uid" : "6e77acaa4313550c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412551657,
+      "stop" : 1631412556559,
+      "duration" : 4902
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Then User should be able to login into the automation practise website",
+    "uid" : "693c7c45e3bbbed0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412556559,
+      "stop" : 1631412556611,
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "",
+    "uid" : "f3811297e1359260",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412556611,
+      "stop" : 1631412556611,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Given Go to Dresses and click on the Summer dresses",
+    "uid" : "9515379a769976c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412556627,
+      "stop" : 1631412564936,
+      "duration" : 8309
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "When Click on Add to Cart",
+    "uid" : "dd54df011af15733",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412564936,
+      "stop" : 1631412571202,
+      "duration" : 6266
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Then Validate that product is successfully added to the cart",
+    "uid" : "96db068e55f3a41b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412571202,
+      "stop" : 1631412571260,
+      "duration" : 58
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "",
+    "uid" : "a45eedf1dcb78d2c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412571261,
+      "stop" : 1631412571261,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Given Get the productname colour and quantity",
+    "uid" : "ef2b96fc8450a15d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412571277,
+      "stop" : 1631412571430,
+      "duration" : 153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "When Click on Proceed to CheckOut",
+    "uid" : "f3c34a4e45f41d2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412571430,
+      "stop" : 1631412581179,
+      "duration" : 9749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "Then Validate whether same productname colour and quantity are displayed in the Summary page",
+    "uid" : "12c13324ba93cc70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412581179,
+      "stop" : 1631412581356,
+      "duration" : 177
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "",
+    "uid" : "e775a30116a40bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631412581356,
+      "stop" : 1631412581356,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  } ]
+}

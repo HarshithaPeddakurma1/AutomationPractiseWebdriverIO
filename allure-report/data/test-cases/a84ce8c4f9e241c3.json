@@ -1,0 +1,120 @@
+{
+  "uid" : "a84ce8c4f9e241c3",
+  "name" : "Then User should be able to login into the automation practise website",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.Then User should be able to login into the automation practise website",
+  "historyId" : "8af552db49d5694e19f74f902b1db944",
+  "time" : {
+    "start" : 1631411818127,
+    "stop" : 1631411818221,
+    "duration" : 94
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631411818128,
+        "stop" : 1631411818166,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a0ae095b3d51b70",
+        "name" : "Request",
+        "source" : "2a0ae095b3d51b70.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "7b6c849dda2ab67f",
+        "name" : "Response",
+        "source" : "7b6c849dda2ab67f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631411818177,
+        "stop" : 1631411818218,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "584a28e8842b98c",
+        "name" : "Request",
+        "source" : "584a28e8842b98c.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "59932d60f0a514f0",
+        "name" : "Response",
+        "source" : "59932d60f0a514f0.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then User should be able to login into the automation practise website"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a84ce8c4f9e241c3.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

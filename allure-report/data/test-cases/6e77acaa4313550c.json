@@ -1,0 +1,158 @@
+{
+  "uid" : "6e77acaa4313550c",
+  "name" : "When Click on the Submit Button",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.When Click on the Submit Button",
+  "historyId" : "21884ea0dbe9e04f3bfaf5dc1876f81c",
+  "time" : {
+    "start" : 1631412551657,
+    "stop" : 1631412556559,
+    "duration" : 4902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412551659,
+        "stop" : 1631412551690,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "860df8b07503be72",
+        "name" : "Request",
+        "source" : "860df8b07503be72.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "39a2382ec838a4ed",
+        "name" : "Response",
+        "source" : "39a2382ec838a4ed.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/e87a2b57-1bda-45ca-bbf2-0db21f386cd6/click",
+      "time" : {
+        "start" : 1631412551692,
+        "stop" : 1631412553557,
+        "duration" : 1865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Click on the Submit Button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff4329743bcbd789",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412458006,
+        "stop" : 1631412462903,
+        "duration" : 4897
+      }
+    }, {
+      "uid" : "58270895ed2d648d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412300197,
+        "stop" : 1631412305213,
+        "duration" : 5016
+      }
+    }, {
+      "uid" : "a3de671875fd87cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412081206,
+        "stop" : 1631412086813,
+        "duration" : 5607
+      }
+    }, {
+      "uid" : "6ba7674b5f6bb779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411813562,
+        "stop" : 1631411818127,
+        "duration" : 4565
+      }
+    }, {
+      "uid" : "feba14163fc3d830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411659479,
+        "stop" : 1631411664640,
+        "duration" : 5161
+      }
+    }, {
+      "uid" : "2458312c2136a51f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411157502,
+        "stop" : 1631411162403,
+        "duration" : 4901
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e77acaa4313550c.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

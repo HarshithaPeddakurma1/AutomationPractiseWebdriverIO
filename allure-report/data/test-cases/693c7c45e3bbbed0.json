@@ -1,0 +1,170 @@
+{
+  "uid" : "693c7c45e3bbbed0",
+  "name" : "Then User should be able to login into the automation practise website",
+  "fullName" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address.Then User should be able to login into the automation practise website",
+  "historyId" : "8af552db49d5694e19f74f902b1db944",
+  "time" : {
+    "start" : 1631412556559,
+    "stop" : 1631412556611,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412556560,
+        "stop" : 1631412556589,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dac99463a3d8001c",
+        "name" : "Request",
+        "source" : "dac99463a3d8001c.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "aed9100f428265f9",
+        "name" : "Response",
+        "source" : "aed9100f428265f9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631412556592,
+        "stop" : 1631412556610,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edb232ec5c542c34",
+        "name" : "Request",
+        "source" : "edb232ec5c542c34.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "d32f8e8c07f6f873",
+        "name" : "Response",
+        "source" : "d32f8e8c07f6f873.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then User should be able to login into the automation practise website"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be able to signout and sigin using a valid email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b21b2b090f8ed882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412462904,
+        "stop" : 1631412462954,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "fcd62f37e251b1b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412305213,
+        "stop" : 1631412305293,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "8ef960069f9e0a76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631412086813,
+        "stop" : 1631412086934,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "a84ce8c4f9e241c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411818127,
+        "stop" : 1631411818221,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "1e4a67b3c7266757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411664641,
+        "stop" : 1631411664752,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "75a36b31ac4afd3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631411162403,
+        "stop" : 1631411162472,
+        "duration" : 69
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "693c7c45e3bbbed0.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

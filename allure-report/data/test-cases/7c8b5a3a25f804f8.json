@@ -1,0 +1,210 @@
+{
+  "uid" : "7c8b5a3a25f804f8",
+  "name" : "Then Validate whether same productname colour and quantity are displayed in the Summary page",
+  "fullName" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page.Then Validate whether same productname colour and quantity are displayed in the Summary page",
+  "historyId" : "cd8628eaa143711f9e98bec335a90211",
+  "time" : {
+    "start" : 1631412495823,
+    "stop" : 1631412495991,
+    "duration" : 168
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412495824,
+        "stop" : 1631412495845,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "259de68a6b007a7f",
+        "name" : "Request",
+        "source" : "259de68a6b007a7f.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "6dff80db0a226a52",
+        "name" : "Response",
+        "source" : "6dff80db0a226a52.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/7f6b42d3-91ef-4122-8ed8-99464d7355d2/text",
+      "time" : {
+        "start" : 1631412495853,
+        "stop" : 1631412495877,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f39ac7e7f203cbb",
+        "name" : "Response",
+        "source" : "9f39ac7e7f203cbb.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412495878,
+        "stop" : 1631412495905,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b762652e776a3d4a",
+        "name" : "Request",
+        "source" : "b762652e776a3d4a.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "abcfedeb204c696e",
+        "name" : "Response",
+        "source" : "abcfedeb204c696e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/4e0ec033-d06e-4609-8cc9-20ee18ae66e3/text",
+      "time" : {
+        "start" : 1631412495907,
+        "stop" : 1631412495934,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12b2e920559f4d87",
+        "name" : "Response",
+        "source" : "12b2e920559f4d87.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412495936,
+        "stop" : 1631412495959,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5026190eb183a28",
+        "name" : "Request",
+        "source" : "e5026190eb183a28.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "2020b3933b74376",
+        "name" : "Response",
+        "source" : "2020b3933b74376.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/144faa73-c1f1-48f9-b373-7a04bf1b6360/text",
+      "time" : {
+        "start" : 1631412495963,
+        "stop" : 1631412495990,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "694120556ad44ff6",
+        "name" : "Response",
+        "source" : "694120556ad44ff6.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate whether same productname colour and quantity are displayed in the Summary page"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: Validate whether same product name colour and quantity are displayed in Payment Summary page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c8b5a3a25f804f8.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

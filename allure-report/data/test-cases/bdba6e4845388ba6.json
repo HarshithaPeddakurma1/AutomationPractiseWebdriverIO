@@ -1,0 +1,219 @@
+{
+  "uid" : "bdba6e4845388ba6",
+  "name" : "Given Go to Dresses and click on the Summer dresses",
+  "fullName" : "Automation Practise dresses page: User should be successfully add the item to the cart.Given Go to Dresses and click on the Summer dresses",
+  "historyId" : "f1858121ed9bd74eb15a16a31db464ed",
+  "time" : {
+    "start" : 1631412305326,
+    "stop" : 1631412314576,
+    "duration" : 9250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412305327,
+        "stop" : 1631412305350,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99084db144bda71",
+        "name" : "Request",
+        "source" : "99084db144bda71.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "58c08b42f75964e0",
+        "name" : "Response",
+        "source" : "58c08b42f75964e0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/7776e69a-717c-423b-9a24-80671f0a91c5/rect",
+      "time" : {
+        "start" : 1631412305361,
+        "stop" : 1631412305381,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e5fc9be3df7ba61",
+        "name" : "Response",
+        "source" : "3e5fc9be3df7ba61.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631412305382,
+        "stop" : 1631412305398,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be885e25b89a5dce",
+        "name" : "Request",
+        "source" : "be885e25b89a5dce.json",
+        "type" : "application/json",
+        "size" : 158
+      }, {
+        "uid" : "74358616ff842252",
+        "name" : "Response",
+        "source" : "74358616ff842252.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1631412305398,
+        "stop" : 1631412305439,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f2918243431dd5d",
+        "name" : "Request",
+        "source" : "4f2918243431dd5d.json",
+        "type" : "application/json",
+        "size" : 288
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1631412305440,
+        "stop" : 1631412305450,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631412305450,
+        "stop" : 1631412305482,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fea727ecec17772",
+        "name" : "Request",
+        "source" : "3fea727ecec17772.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "1296db1cca9d5ea1",
+        "name" : "Response",
+        "source" : "1296db1cca9d5ea1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ffdc9ce3-f744-492e-95db-5b76a919fc1e/click",
+      "time" : {
+        "start" : 1631412305484,
+        "stop" : 1631412309562,
+        "duration" : 4078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Go to Dresses and click on the Summer dresses"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practise dresses page: User should be successfully add the item to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdba6e4845388ba6.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}
